@@ -4,7 +4,7 @@ import random as rnd
 
 l = []
 aux = ["art", "n", "t"]
-f = open('NOUNS.rtf', 'r', encoding='utf-8')
+f = open('NOUNS.rtf', 'r')
 text = f.read().split('\n')
 c = 0
 for line in text:
